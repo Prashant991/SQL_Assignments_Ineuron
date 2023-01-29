@@ -1,0 +1,17 @@
+#1
+select * from CITY where COUNTRYCODE = 'USA' and Population >100000;
+
+# 2
+select NAME from CITY where COUNTRYCODE = 'USA' and Population >120000;
+
+# 3
+select * from City;
+
+# 4
+select * from City where ID = 1661;
+
+# 5
+select * from CITY where COUNTRYCODE = 'JPN';
+
+# 6 
+select name from CITY where COUNTRYCODE = 'JPN';
